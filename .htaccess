@@ -1,0 +1,19 @@
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^twb\.jp$
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://www.twb.jp/$1 [R=301,L]
+
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^twb\.jp$
+RewriteRule ^(.*)$ https://www.twb.jp/$1 [R=301,L]
+
+#AddOutputFilter INCLUDES .html .htm
+#AddType text/x-server-parsed-html .html
+#AddType text/x-server-parsed-html .htm
+Options +Includes
+AddHandler server-parsed html
+
+
