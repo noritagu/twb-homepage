@@ -1,0 +1,152 @@
+﻿@charset "utf-8";
+
+/*------------------------
+		option.css
+------------------------*/
+
+
+
+/*=========display=========*/
+.DisPlayNone { display:none; }
+.DisPlayBlock { display:block; }
+.DisPlayInline { display:inline; }
+
+/*=========float=========*/
+.FRight { float: right; }
+.FLeft { float: left; }
+
+/*=========clear=========*/
+.ClearBoth { clear:both; }
+.ClearRight { clear: right; }
+.ClearLeft { clear: left; }
+
+.ClearBox {
+	clear: both;
+	height: 0;
+	overflow: hidden;
+}
+
+/*=========visibility=========*/
+.VisVis { visibility: visible; }
+.VisHid { visibility: hidden; }
+.VisCol { visibility: collapse; }
+
+/*=========マージン設定=========*/
+.MA0 { margin:0; }
+.MRLAuto { margin-left:auto; margin-right:auto; }
+.MLR10 { margin-left: 10px; margin-right: 10px; }
+
+.MT0 { margin-top:0; }
+.MT5 { margin-top:5px; }
+.MT10 { margin-top:10px; }
+.MT20 { margin-top:20px; }
+.MT30 { margin-top:30px; }
+.MT40 { margin-top:40px; }
+.MT50 { margin-top:50px; }
+
+.MR0 { margin-right:0; }
+.MR5 { margin-right:5px; }
+.MR10 { margin-right:10px; }
+.MR12 { margin-right:12px; }
+.MR13 { margin-right:13px; }
+.MR15 { margin-right:15px; }
+.MR20 { margin-right:20px; }
+.MR25 { margin-right:25px; }
+.MR30 { margin-right:30px; }
+.MR40 { margin-right:40px; }
+.MR50 { margin-right:50px; }
+.MR60 { margin-right:60px; }
+.MR80 { margin-right:80px; }
+.MR90 { margin-right:90px; }
+
+
+.MB0 { margin-bottom:0; }
+.MB5 { margin-bottom:5px; }
+.MB10 { margin-bottom:10px; }
+.MB15 { margin-bottom:15px; }
+.MB20 { margin-bottom:20px; }
+.MB30 { margin-bottom:30px; }
+.MB40 { margin-bottom:40px; }
+.MB50 { margin-bottom:50px; }
+.MB60 { margin-bottom:60px; }
+.MB100 { margin-bottom:100px; }
+.MB200 { margin-bottom:200px; }
+.MB300 { margin-bottom:300px; }
+
+.ML0 { margin-left:0; }
+.ML5 { margin-left:5px; }
+.ML10 { margin-left:10px; }
+.ML20 { margin-left:20px; }
+.ML30 { margin-left:30px; }
+.ML40 { margin-left:40px; }
+.ML50 { margin-left:50px; }
+.ML60 { margin-left:60px; }
+.ML70 { margin-left:70px; }
+.ML80 { margin-left:80px; }
+
+/*=========パディング設定=========*/
+.PA0 { padding:0;}
+.PA5 { padding:5px;}
+.PA10 { padding:10px;}
+.PA20 { padding:20px;}
+.PA30 { padding:30px;}
+
+.PT0 { padding-top:0; }
+.PT5 { padding-top:5px; }
+.PT10 { padding-top:10px; }
+.PT20 { padding-top:20px; }
+.PT30 { padding-top:30px; }
+.PT40 { padding-top:40px; }
+.PT50 { padding-top:50px; }
+
+.PR0 { padding-right:0; }
+.PR5 { padding-right:5px; }
+.PR10 { padding-right:10px; }
+.PR20 { padding-right:20px; }
+.PR30 { padding-right:30px; }
+.PR40 { padding-right:40px; }
+.PR50 { padding-right:50px; }
+
+.PB0 { padding-bottom:0; }
+.PB5 { padding-bottom:5px; }
+.PB10 { padding-bottom:10px; }
+.PB20 { padding-bottom:20px; }
+.PB30 { padding-bottom:30px; }
+.PB40 { padding-bottom:40px; }
+.PB50 { padding-bottom:50px; }
+
+.PL0 { padding-left:0; }
+.PL5 { padding-left:5px; }
+.PL10 { padding-left:10px; }
+.PL20 { padding-left:20px; }
+.PL30 { padding-left:30px; }
+.PL40 { padding-left:40px; }
+.PL50 { padding-left:50px; }
+
+/*=========Font=========*/
+.FontBold { font-weight: bold; }
+.FontColorRed{ color: #cc0000; }
+.FontColorRedB{ color: #ff1919; }
+.FontColorRed1{	color: #FF6699;}
+.FontColorOrange { color: #F60; }
+.FontColorBlack { color: #000; }
+.FontColorBlue1{ color: #0099CC;}
+.FontColorBlueGray1{ color: #39585E;}
+
+
+/*=========text-align=========*/
+.TACenter {	text-align: center; }
+.TARight { text-align: right; }
+.TALeft { text-align: left; }
+
+/*=========vertical-align=========*/
+.VAMid { vertical-align: middle; }
+.VAtTop { vertical-align: text-top; }
+
+.VABase img { vertical-align: baseline; }
+.VAMidd img { vertical-align: middle; }
+
+/*=========透過PNG=========*/
+.iepngfix {
+	behavior: expression(IEPNGFIX.fix(this));
+}
