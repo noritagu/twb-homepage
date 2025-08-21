@@ -1,0 +1,182 @@
+@charset "UTF-8";
+
+
+
+/*　背景　 
+------------------------------------------------ */
+body {
+	background: url(../img/bg_page.gif) repeat-x left top;	
+}
+
+
+
+
+/*　メインイメージ　 
+------------------------------------------------ */
+#page_image {
+	margin: 0px 0px 10px;
+	padding: 0px;
+	height: 100px;
+	width: 900px;
+	clear: left;
+}
+
+
+
+/*　ページタイトル　 
+------------------------------------------------ */
+#page_image h2 {
+	font-size: xx-small;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+/*　トピックパス　 
+------------------------------------------------ */
+#topic_pass {
+	font-size: 80%;
+	margin: 0px 0px 30px;
+	padding: 0px 0px 5px 5px;
+	border-bottom: 1px dotted #999;
+}
+
+
+#topic_pass a {
+	text-decoration: underline;
+}
+
+#topic_pass a:hover {
+	text-decoration: none;
+}
+
+/*　お問い合わせ　 
+------------------------------------------------ */
+#inquiry {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: auto;
+	width: 880px;
+}
+
+#inquiry_end {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: auto;
+	width: 650px;
+}
+
+#contact_form table {
+	width: 860px;
+	height: auto;
+	margin: 0px 0px 20px;
+	padding: 0px;
+	border-top: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+}
+
+#contact_form th {
+	font-weight: normal;
+	text-align: left;
+	margin: 0px;
+	padding: 10px;
+	height: auto;
+	width: 120px;
+	border-bottom: 1px solid #CCC;
+	border-left: 1px solid #CCC;
+	background: #f5f5f5;
+}
+
+#contact_form td {
+	margin: 0px;
+	padding: 10px;
+	border-bottom: 1px solid #CCC;
+	border-left: 1px solid #CCC;
+}
+
+.icon_need {
+	background-color: #F66;
+	color: #FFF;
+	margin: 0px 0px 0px 3px;
+	padding: 2px 5px;
+}
+.fc_f30 {
+	color: #F30;
+}
+
+
+
+#contact_form {
+	margin: 0px;
+	padding: 0px;
+}
+.btn_form {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	height: auto;
+	width: 860px;
+}
+
+#inquiry input {
+	padding: 2px;
+}
+
+#contact_form input[type=radio] {
+	margin-right: 5px;
+}
+
+
+/*　入力内容のご確認　 
+------------------------------------------------ */
+
+
+#conf_form table {
+	width: 860px;
+	height: auto;
+	margin: 0px 0px 20px;
+	padding: 0px;
+	border-top: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+}
+
+#conf_form th {
+	font-weight: normal;
+	text-align: left;
+	margin: 0px;
+	padding: 10px;
+	height: auto;
+	width: 120px;
+	border-bottom: 1px solid #CCC;
+	border-left: 1px solid #CCC;
+	background: #f5f5f5;
+}
+
+#conf_form td {
+	margin: 0px;
+	padding: 10px;
+	border-bottom: 1px solid #CCC;
+	border-left: 1px solid #CCC;
+}
+
+
+#conf_form {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/*　送信完了　 
+------------------------------------------------ */
+
+#thanks {
+	padding: 40px 40px 20px;
+	height: auto;
+	width: 420px;
+	margin: 50px 0px 0px 74px;
+	border: 1px solid #006AB5;
+	text-align: center;
+}

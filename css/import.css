@@ -4,6 +4,7 @@
 		import.css
 ------------------------*/
 @import "style.css";			/* 基本レイアウト用 */
+@import "reqruit.css";			/* 採用レイアウト用 */
 @import "initialization.css";	/* 初期化用 */
 @import "clearfix.css";		/* clearfix設定 */
 @import "option.css";			/* プロパティ設定 */
