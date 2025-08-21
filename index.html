@@ -41,32 +41,100 @@ $(".accordion p").click(function(){
 
 <!--sp_nav-->
 <div class="sp_nav sp_only">
-	<div class="inner">
-		<div class="sp_nav_logo"><a href="index.html"><img src="images/common/sp_logo.png" alt="株式会社TWB"></a></div>
-		<div class="sp_nav_btn"><a href="javascript:void(0);" class="menu_trigger" title="Open Menu"><span></span></a></div>
-	</div>
+  <h1 class="sp_logo"><a href="/index.html"><img src="images/common/sp_twb_logo.png" alt="株式会社TWB"></a></h1>
+  <div class="menu1" id="js-popout"></div>
+  <div class="panel" id="js-popout-panel">
+    <div class="panel-inner">
+      <div class="l-nav">
+        <ul class="nav-sp accordion">
+          <li><a href="index.html"> ホーム</a></li>
+          <li><a href="reqruit.html">人材募集</a></li>
+          <li><p><span> TWBについて</span></p>
+            <ul>
+              <li><a href="policy.html"> 制作に関するポリシー</a></li>
+              <li><a href="development.html"> 開発体制</a></li>
+              <li><a href="reason.html"> 選ばれる理由</a></li>
+              <li><a href="company.html"> 会社案内</a></li>
+            </ul>
+          </li>
+          <li><p><span>サービス</span></p>
+            <ul>
+              <li><a href="service.html"> サービスの特徴</a></li>
+              <li><a href="#"> 価格について</a></li>
+              <li><a href="cases.html"> 業務効率化の事例</a></li>
+            </ul>
+          </li>
+          <li><p><span>便利ガイド</span></p>
+            <ul>
+              <li><a href="guide.html"> 知っていただきたい事</a></li>
+              <li><a href="flow.html"> 開発の流れ</a></li>
+              <li><a href="faq.html"> よくあるご質問</a></li>
+            </ul>
+          </li>
+          <li><p><span>システム開発</span></p>
+            <ul>
+              <li><a href="it-consulting.html"> ITコンサルティング</a></li>
+              <li><a href="project-management.html"> プロジェクトマネジメント</a></li>
+              <li><a href="system.html"> システム開発</a></li>
+              <li><a href="maintenance.html"> 運用・保守</a></li>
+            </ul>
+          </li>
+          <li><a href="news.html">お知らせ</a></li>
+          <li><a href="#">コラム</a></li>
+          <li><a href="works.html">制作実績</a></li>
+          <li><a href="/contact/">お問い合わせ</a></li>
+        </ul>
+      </div>
+      <div class="close" id="js-popout-close"></div>
+    </div>
+  </div>
 </div>
+<!--/.sp_nav END-->
 
-<!--gnav-->
-<div class="gnav">
-	<div class="inner">
-		<h1 class="logo"><a href="index.html"><img src="images/common/logo.png" alt="株式会社TWB"></a></h1>
-		<nav class="global_nav">
-			<ul>
-				<li><a href="index.html">ホーム</a></li>
-				<li><a href="about.html">ＴＷＢについて</a></li>
-				<li><a href="service.html">サービス</a></li>
-				<li><a href="case.html">導入事例</a></li>
-				<li><a href="faq.html">よくある質問</a></li>
-				<li><a href="contact.html">お問い合わせ</a></li>
-			</ul>
-		</nav>
-	</div>
-</div>
-<!--/.gnav END-->
-
-<!-- ヘッダー-->
-<!--#include virtual="./common/header.html" -->
+<!--header-->
+<header>
+  <p class="header_top">TWBはお客様の「使いやすい」を実現するシステム会社です</p>
+  <h1 class="logo"><a href="/index.html"><img src="images/common/pc_twb_logo.png" alt="株式会社TWB"></a></h1>
+  <nav>
+    <ul>
+      <li><a href="reqruit.html">人材募集</a></li>
+      <li><a href="company.html">TWBについて</a>
+        <ul class="child_nav">
+          <li><a href="policy.html">制作に関するポリシー</a></li>
+          <li><a href="development.html">開発体制</a></li>
+          <li><a href="reason.html">選ばれる理由</a></li>
+          <li><a href="company.html">会社案内</a></li>
+          <li><a href="works.html">制作実績</a></li>
+        </ul>
+      </li>
+      <li><a href="service.html">サービス</a>
+        <ul class="child_nav">
+          <li><a href="service.html">サービスの特徴</a></li>
+          <li><a href="#">価格について</a></li>
+          <li><a href="cases.html">業務効率化の事例</a></li>
+        </ul>
+      </li>
+      <li><a href="guide.html">便利ガイド</a>
+        <ul class="child_nav">
+          <li><a href="guide.html">知っていただきたい事</a></li>
+          <li><a href="flow.html">開発の流れ</a></li>
+          <li><a href="faq.html">よくあるご質問</a></li>
+        </ul>
+      </li>
+      <li><a href="system.html">システム開発</a>
+        <ul class="child_nav">
+          <li><a href="it-consulting.html">ITコンサルティング</a></li>
+          <li><a href="project-management.html">プロジェクトマネジメント</a></li>
+          <li><a href="system.html">システム開発</a></li>
+          <li><a href="maintenance.html">運用・保守</a></li>
+        </ul>
+      </li>
+      <li><a href="/contact/">お問い合わせ</a></li>
+    </ul>
+  </nav>
+  <p class="header_tel"><img src="images/common/header_tel.jpg?id=1234" alt=""></p>
+</header>
+<!--/.header END-->
 
 <!--main_img-->
 <div class="main_img_req">
@@ -432,4 +500,6 @@ $(".accordion p").click(function(){
 	<!-- フッター-->
 <!--#include virtual="./common/footer_area_top.html" -->
 <!--#include virtual="./common/footer.html" -->
+</body>
+</html>
 
