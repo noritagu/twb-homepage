@@ -1,0 +1,391 @@
+@charset "UTF-8";
+
+
+
+/*　背景　 
+------------------------------------------------ */
+body {
+	background: url(../img/bg_page.gif) repeat-x left top;	
+}
+
+
+/*　メインイメージ　 
+------------------------------------------------ */
+#page_image {
+	margin: 0px 0px 10px;
+	padding: 0px;
+	height: 100px;
+	width: 900px;
+	clear: left;
+}
+
+/*　ページタイトル　 
+------------------------------------------------ */
+#page_image h2 {
+	font-size: xx-small;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/*　トピックパス　 
+------------------------------------------------ */
+#topic_pass {
+	font-size: 80%;
+	margin: 0px 0px 30px;
+	padding: 0px 0px 5px 5px;
+	border-bottom: 1px dotted #999;
+}
+
+#topic_pass a {
+	text-decoration: underline;
+}
+
+#topic_pass a:hover {
+	text-decoration: none;
+}
+
+
+/*　会社概要　 
+------------------------------------------------ */
+#company {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: auto;
+	width: 650px;
+}
+
+.outline {
+	height: auto;
+	width: 600px;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.outline th {
+	font-weight: normal;
+	padding: 10px 10px 10px 15px;
+	text-align: left;
+	margin: 0px;
+	border-bottom: 1px solid #CCC;
+	height: auto;
+	width: 100px;
+}
+
+.outline td {
+	margin: 0px;
+	padding: 10px;
+	border-bottom: 1px solid #CCC;
+}
+
+.outline td .title{
+	margin-top: 10px;
+}
+
+.outline td .service .category{
+	margin-top:5px;
+	padding-left: 15px;
+}
+
+.outline td .service .comment{
+	padding-left: 30px;
+}
+
+#enkaku:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+
+#enkaku dt {
+/*    color: #FB330D;*/
+    float: left;
+    margin-left: 12px;
+    padding-top: 8px;
+}
+
+
+#enkaku dd {
+    border-bottom: 1px dotted #C6C6C6;
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+    padding-left: 100px;
+    padding-top: 8px;
+}
+
+/*　経営理念　 
+------------------------------------------------ */
+#rinen {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: auto;
+	width: 650px;
+}
+#rinen #signature {
+	text-align: right;
+	margin: 50px 0px 20px;
+	padding: 0px;
+}
+#rinen h3 {
+	background: url(../img/icon_maru.gif) no-repeat left center;
+	margin: 0px 0px 10px;
+	padding: 10px 0px 10px 15px;
+	border-bottom: 1px solid #CCC;
+	font-size: 116%;
+}
+
+/*　採用情報　 
+------------------------------------------------ */
+#recruit {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: auto;
+	width: 650px;
+}
+
+#recruit h3 {
+	background: url(../img/icon_maru.gif) no-repeat left center;
+	margin: 0px 0px 10px;
+	padding: 10px 0px 10px 15px;
+	border-bottom: 1px solid #CCC;
+	font-size: 116%;
+}
+
+
+.recruit_info {
+	height: auto;
+	width: 600px;
+	margin: 0px 0px 50px;
+	padding: 0px;
+}
+
+
+.recruit_info th {
+	font-weight: normal;
+	padding: 10px 10px 10px 15px;
+	text-align: left;
+	margin: 0px;
+	border-bottom: 1px solid #CCC;
+	height: auto;
+	width: 100px;
+}
+
+.recruit_info td {
+	margin: 0px;
+	padding: 10px;
+	border-bottom: 1px solid #CCC;
+}
+
+/*　特定商取引法表記　 
+------------------------------------------------ */
+#notation {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: auto;
+	width: 650px;
+}
+
+
+.notation_info {
+	height: auto;
+	width: 600px;
+	margin: 0px 0px 50px;
+	padding: 0px;
+}
+
+
+.notation_info th {
+	font-weight: normal;
+	padding: 10px 10px 10px 15px;
+	text-align: left;
+	margin: 0px;
+	border-bottom: 1px solid #CCC;
+	height: auto;
+	width: 100px;
+}
+
+.notation_info td {
+	margin: 0px;
+	padding: 10px;
+	border-bottom: 1px solid #CCC;
+}
+
+/*　プライバシーポリシー　 
+------------------------------------------------ */
+#privacy {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: auto;
+	width: 650px;
+}
+
+
+#privacy  h3 {
+	background: url(../img/icon_maru.gif) no-repeat left center;
+	margin: 0px 0px 10px;
+	padding: 10px 0px 10px 15px;
+	border-bottom: 1px solid #CCC;
+	font-size: 116%;
+}
+
+
+#privacy ol {
+	margin: 0px 0px 20px;
+	padding: 0px 0px 0px 25px;
+	list-style: decimal outside;
+}
+
+#privacy ol li {
+	margin: 0px 0px 10px;
+	padding: 0px;
+}
+
+/*　実績　 
+------------------------------------------------ */
+#performance {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: auto;
+	width: 650px;
+}
+
+.works_box {
+	margin: 0px 0px 30px;
+	padding: 0px;
+	clear: both;
+	overflow: hidden;
+}
+.works_image {
+	padding: 4px;
+	height: auto;
+	width: 200px;
+	margin: 0 15px 0 0;
+	border: 1px solid #CCC;
+	text-align: center;
+	float: left;
+}
+.works_text {
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	height: auto;
+	width: 650px;
+}
+
+.works_title h3 {
+	margin: 0px 0px 20px;
+	padding: 5px 0px 5px 5px;
+	font-size: 100%;
+	border-bottom: 1px solid #CCC;
+	padding: 0 0 0 20px;
+	background: url(../img/cube003.gif) left top no-repeat;
+}
+
+.works_text h3 {
+	margin: 0px 0px 20px;
+	padding: 5px 0px 5px 5px;
+	font-size: 100%;
+	border-bottom: 1px solid #CCC;
+}
+.works_text table {
+	width: 400px;
+	height: auto;
+	margin: 0px;
+	padding: 0px;
+	border-top: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+}
+.works_text th {
+	padding: 5px;
+	height: auto;
+	width: 50px;
+	margin: 0px;
+	border-bottom: 1px solid #CCC;
+	border-left: 1px solid #CCC;
+	font-weight: normal;
+	background: #f5f5f5;
+}
+.works_text td {
+	margin: 0px;
+	padding: 5px 5px 5px 10px;
+	border-bottom: 1px solid #CCC;
+	border-left: 1px solid #CCC;
+}
+
+.works_text_oth {
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	height: auto;
+	width: 650px;
+}
+
+.works_text_oth h3 {
+	margin: 0px 0px 20px;
+	padding: 5px 0px 5px 5px;
+	font-size: 100%;
+	border-bottom: 1px solid #CCC;
+}
+.works_text_oth table {
+	width: 640px;
+	height: auto;
+	margin: 0px;
+	padding: 0px;
+	border-top: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+}
+.works_text_oth th {
+	padding: 5px;
+	height: auto;
+/*	width: 50px;*/
+	margin: 0px;
+	border-bottom: 1px solid #CCC;
+	border-left: 1px solid #CCC;
+	font-weight: normal;
+	background: #f5f5f5;
+}
+.works_text_oth td {
+	margin: 0px;
+	padding: 5px 5px 5px 10px;
+	border-bottom: 1px solid #CCC;
+	border-left: 1px solid #CCC;
+}
+
+.works_box:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+.works_icon {
+	width: 650px;
+	margin: 0px 0px 20px;
+	float: right;
+}
+
+.works_icon ul:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+.works_icon ul li{
+	list-style: none;
+	float: left;
+	margin-left: 12px;
+	padding-top: 8px;
+}
+
+.fltR {
+	float: right;
+	width: 400px;
+}
+

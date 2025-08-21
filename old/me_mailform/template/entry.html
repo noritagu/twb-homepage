@@ -1,0 +1,256 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja"><!-- InstanceBegin template="/Templates/base.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<!-- InstanceBeginEditable name="head" -->
+<meta name="Keywords" content="Webアプリケーション,開発,情報,システム,ソフトウェア,PHP" />
+<meta name="Description" content="より身近にWebアプリケーション開発をサポートする株式会社TWB" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript" src="js/rollover.js"></script>
+<link href="css/import_page.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" type="text/css" href="_inquiry.css"/>
+
+<link href="./me_mailform/assets/css/bootstrap.min.css" rel="stylesheet">
+<link href="./me_mailform/assets/css/bootstrap-responsive.min.css" rel="stylesheet">
+<script src="./me_mailform/assets/js/jquery-1.11.3.min.js" charset="UTF-8" type="text/javascript"></script>
+<script src="./me_mailform/assets/js/memf.js" charset="UTF-8" type="text/javascript"></script>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>お問い合わせ　｜　株式会社ＴＷＢ</title>
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<a name="top" id="top"></a>
+<!--　外枠ここから　-->
+<div id="wrapper">
+	
+	<!--　ヘッダー　-->
+	<div id="header">
+		<div id="lead_text">
+			<h1 style="line-height:17px;">株式会社ＴＷＢは<br />お客様のＷｅｂシステムをより身近にサポートする会社です</h1>
+		</div>
+		<div id="logo">
+			<a href="index.html"><img src="img/logo.gif" width="113" height="36" alt="株式会社TWB" /></a></div>
+		<div id="tel"><img src="img/tel.gif" width="209" height="36" alt="お気軽にご相談ください 03-5613-1284" /></div>
+		
+	</div>
+	
+	<!--　グローバルメニュー　-->
+	<!-- InstanceBeginEditable name="navi" -->
+	<div id="navi">
+		<ul>
+			<li><a href="index.html"><img src="img/navi_home_off.gif" alt="ホーム" width="150" height="40" /></a></li>
+			<li><a href="performance.html"><img src="img/navi_performance_off.gif" alt="実　績" width="150" height="40" /></a></li>
+			<li><a href="rinen.html"><img src="img/navi_rinen_off.gif" alt="経営理念" width="150" height="40" /></a></li>
+			<li><a href="company.html"><img src="img/navi_company_off.gif" alt="会社概要" width="150" height="40" /></a></li>
+			<li><a href="recruit.html"><img src="img/navi_recruit_off.gif" alt="採用情報" width="150" height="40" /></a></li>
+			<li><img src="img/navi_contact_on.gif" alt="お問い合わせ" width="150" height="40" /></li>
+		</ul>
+	</div>
+	<!-- InstanceEndEditable -->
+	<!--　メインイメージ　-->
+	<!-- InstanceBeginEditable name="image" -->
+	<div id="page_image">
+		<h2><img src="img/tit_inquiry.jpg" alt="お問い合わせ" width="900" height="100" /></h2>
+	</div>
+	<!-- InstanceEndEditable --><!-- InstanceBeginEditable name="pass" -->
+	<div id="topic_pass"><a href="index.html">ホーム</a> &gt; お問い合わせ</div>
+	<!-- InstanceEndEditable -->
+	<!--　コンテンツ外枠ここから　-->
+	<div id="main">
+		
+		<!--　コンテンツここから　-->
+		<!-- InstanceBeginEditable name="contents" -->
+		<div id="inquiry">
+			
+			<p>以下フォームよりお問い合わせください。</p>
+
+      <form name="me_mailform" action="inquiry.php" method="post">
+        <div id="error_message" class="alert alert-error">入力内容に誤りがあります。</div>
+        <table class="table table-striped">
+          <tr>
+            <th>お問い合せの種類 <span class="label label-important">必須</span></th>
+            <td>
+              <div><label><input type="radio" name="type" value="見積りを出して欲しい" />見積りを出して欲しい</label></div>
+              <div><label><input type="radio" name="type" value="最適なシステムを提案して欲しい" />最適なシステムを提案して欲しい</label></div>
+              <div><label><input type="radio" name="type" value="直接具体的に相談したい" />直接具体的に相談したい</label></div>
+              <div><label><input type="radio" name="type" value="事業提携の相談がしたい" />事業提携の相談がしたい</label></div>
+              <div><label><input type="radio" name="type" value="その他" />その他</label></div>
+              <div id="type_error" class="alert alert-error">エラーメッセージ</div>
+            </td>
+          </tr>
+          <tr>
+            <th>お問い合わせ内容 <span class="label label-important">必須</span></th>
+            <td><textarea name="comment" class="input-xxlarge" rows="10"></textarea>
+              <div id="comment_error" class="alert alert-error">エラーメッセージ</div>
+            </td>
+          </tr>
+          <tr>
+            <th>会社名 <span class="label label-important">必須</span></th>
+            <td>
+              <input type="text" name="office" class="input-xlarge" placeholder="例）株式会社TWB" value="">
+              <div id="office_error" class="alert alert-error">エラーメッセージ</div>
+            </td>
+          </tr>
+          <tr>
+            <th>部署名 </th>
+            <td>
+              <input type="text" name="department" placeholder="例）システム開発事業部" value="">
+              <div id="department_error" class="alert alert-error">エラーメッセージ</div>
+            </td>
+          </tr>
+          <tr>
+            <th>役職 </th>
+            <td>
+              <input type="text" name="appointment" placeholder="例）主任 システムエンジニア" value="">
+              <div id="appointment_error" class="alert alert-error">エラーメッセージ</div>
+            </td>
+          </tr>
+          <tr>
+            <th>担当者名 <span class="label label-important">必須</span></th>
+            <td>
+              <input type="text" name="name" placeholder="例）山田 太郎" value="">
+              <div id="name_error" class="alert alert-error">エラーメッセージ</div>
+            </td>
+          </tr>
+          <tr>
+            <th>メールアドレス <span class="label label-important">必須</span></th>
+            <td><input type="text" name="email" class="input-xlarge" placeholder="例）info@example.com" value="">
+              <div id="email_error" class="alert alert-error">エラーメッセージ</div>
+            </td>
+          </tr> 
+          <tr>
+            <th>郵便番号</th>
+            <td>
+              <div class="input-prepend">
+                <span class="add-on">〒</span><input type="text" name="zipcode" class="input-small" value="" onkeyup="memf.zipAddr('zipcode', '', 'addr')" placeholder="例）1000001" >
+              </div>
+              <div id="zipcode_error" class="alert alert-error">エラーメッセージ</div>
+            </td>
+          </tr>
+          <tr>
+            <th>住所</th>
+            <td><input type="text" name="addr" class="input-xxlarge" value="" placeholder="例）東京都千代田区千代田1番1号">
+              <div id="addr_error" class="alert alert-error">エラーメッセージ</div>
+            </td>
+          </tr>
+          <tr>
+            <th>電話番号 <span class="label label-important">必須</span></th>
+            <td>
+              <input type="text" name="telno" placeholder="例）03-5613-1284" value="">
+              <div id="telno_error" class="alert alert-error">エラーメッセージ</div>
+            </td>
+          </tr>
+          <tr>
+            <th>御社ウェブサイト </th>
+            <td>
+              <input type="text" name="url" class="input-xxlarge" placeholder="例）https://www.twb.jp" value="">
+              <div id="url_error" class="alert alert-error">エラーメッセージ</div>
+            </td>
+          </tr>
+<!--
+          <tr>
+            <th>ご用件 <span class="label label-important">必須</span></th>
+            <td>
+              <div><label><input type="radio" name="purpose" value="お見積依頼">
+                  お見積依頼</label></div>
+              <div><label><input type="radio" name="purpose" value="採用情報について">
+                  採用情報について</label></div>
+              <div><label><input type="radio" name="purpose" value="その他お問い合わせ">
+                  その他お問い合わせ</label></div>
+              <div id="purpose_error" class="alert alert-error">エラーメッセージ</div>
+            </td>
+          </tr>
+          <tr>
+            <th>ご職業</th>
+            <td>
+              <select name="work">
+                <option value="">選択してください</option>
+                <option value="学生">学生</option>
+                <option value="主婦">主婦</option>
+                <option value="会社員">会社員</option>
+                <option value="会社役員">会社役員</option>
+                <option value="自営業">自営業</option>
+                <option value="公務員">公務員</option>
+                <option value="パート・アルバイト">パート・アルバイト</option>
+                <option value="その他">その他</option>
+              </select>
+              <div id="work_error" class="alert alert-error">エラーメッセージ</div>
+            </td>
+          </tr>
+          <tr>
+            <th>ご利用用途</th>
+            <td>
+              <label class="checkbox inline"><input type="checkbox" name="use[]" value="お問い合わせフォーム"> お問い合わせフォーム</label>
+              <label class="checkbox inline"><input type="checkbox" name="use[]" value="アンケートフォーム"> アンケートフォーム</label>
+              <label class="checkbox inline"><input type="checkbox" name="use[]" value="求人募集フォーム"> 求人募集フォーム</label>
+              <div id="use_error" class="alert alert-error">エラーメッセージ</div>
+            </td>
+          </tr>
+          <tr>
+            <th>画像認証 <span class="label label-important">必須</span></th>
+            <td>
+              <img src="index.php?captcha" width="160" height="80" title="画像認証"><br>
+              画像に表示されている文字を入力してください。<br>
+              <input id="captcha" type="text" name="captcha">
+              <div id="captcha_error" class="alert alert-error">エラーメッセージ</div>
+            </td>
+          </tr>
+-->
+        </table>
+        <input type="submit" class="btn btn-primary" value="確認画面へ">
+      </form>
+
+		</div>
+		<!-- InstanceEndEditable -->
+		<!--　コンテンツここまで　-->
+
+	</div>
+	<!--　コンテンツ外枠ここまで　-->
+</div>
+<!--　外枠ここまで　-->
+
+
+<!--　フッターここから　-->
+<div class="page_top"><a href="#top"><img src="img/btn_page_top.gif" width="120" height="30" alt="PageTop" /></a></div>
+
+
+<div id="footer">
+<div id="bottom_menu">
+	<ul>
+		<li><a href="index.html">ホーム</a></li>
+		<li>| <a href="performance.html">実績</a></li>
+		<li>| <a href="rinen.html">経営理念</a></li>
+		<li>| <a href="company.html">会社概要</a></li>
+		<li>| <a href="recruit.html">採用情報</a></li>
+		<li>|	<a href="inquiry.php">お問い合わせ</a></li>
+		<li>|	<a href="notation.html">特定商取引法表記</a></li>
+		<li>|	<a href="privacy.html">プライバシーポリシー</a></li>
+		<li>|	<a href="isms-A-02.pdf" target="_blank">情報セキュリティ基本方針</a></li>
+	</ul>	
+	</div>
+	<div id="copyright">Copyright(c) 2012 TWB All Rights Reserved.</div>
+  <div id="copyright">Powered by <a href="http://microengine.jp/" target="_blank">MicroEngine</a></div>
+	
+</div>
+
+<!--　フッターここまで　-->
+
+</body>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-42222167-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- InstanceEnd --></html>

@@ -1,0 +1,275 @@
+@charset "UTF-8";
+
+/* ページ初期設定
+--------------------------------------------------- */
+
+* {
+	font-size: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	color: #333333;
+	margin: 0px auto;
+	padding: 0px;
+	font: 75%/1.7 "ＭＳ Ｐゴシック";
+}
+
+
+img {
+	border-style: none;
+}
+
+	
+p {
+	line-height: 1.7;
+	margin: 0px 0px 20px;
+	padding: 0px;
+}
+
+a {
+	text-decoration: none;
+	color: #333333;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #333333;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+/* wrapper
+----------------------------------------------------- */
+#wrapper {
+	margin: 0px auto;
+	padding: 0px;
+	width: 900px;
+	height: auto;
+	overflow: hidden;
+}
+
+/* その他のclass指定
+----------------------------------------------- */
+
+.fc_c00_18px_b {
+color: #C00;
+	font-size: 150%;
+	font-weight: bold;
+}
+
+.fs_14px_b {
+	font-size: 116%;
+	font-weight: bold;
+}
+
+
+.clear_b {
+	clear: both;
+}
+
+
+.page_top {
+	text-align: right;
+	margin: 0px auto;
+	padding: 0px;
+	height: auto;
+	clear: both;
+	width: 900px;
+}
+
+.page_top2 {
+	text-align: right;
+	margin: 0px 0px 20px;
+	padding: 0px;
+	height: auto;
+}
+
+
+
+/* header
+------------------------------------------------------ */
+#header {
+	height: 70px;
+	width: 900px;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+}
+
+#logo {
+	margin: 0px;
+	padding: 0px;
+	height: 36px;
+	width: 113px;
+	position: absolute;
+	left: 0px;
+	top: 25px;
+}
+
+#lead_text {
+	margin: 0px;
+	padding: 0px;
+	width: 300px;
+	position: absolute;
+	left: 128px;
+	top: 25px;
+}
+
+#lead_text h1 {
+	font-size: 80%;
+	margin: 0px;
+	padding: 0px;
+	font-weight: normal;
+}
+
+
+
+#tel {
+	margin: 0px;
+	padding: 0px;
+	height: 36px;
+	width: 209px;
+	position: absolute;
+	left: 650px;
+	top: 25px;
+}
+
+
+/* navi
+------------------------------------------------------ */
+#navi {
+	margin: 0px 0px 10px;
+	padding: 0px;
+	height: 40px;
+	width: 900px;
+	overflow: hidden;
+}
+#navi ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+#navi li {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 40px;
+	width: 150px;
+}
+
+/* コンテンツ　外枠
+------------------------------------------------------ */
+#main {
+	margin: 0px 0px 50px;
+	padding: 0px;
+	clear: both;
+	height: auto;
+	width: 900px;
+	overflow: hidden;
+}
+
+
+
+
+/* footer　
+------------------------------------------------------ */
+
+#footer {
+	margin: 0px;
+	padding: 20px 0px;
+	height: auto;
+	width: 100%;
+	background: #333;
+	text-align: center;
+}
+
+#bottom_menu li {
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+	color: #FFF;
+}
+
+#bottom_menu {
+	margin: 0px 0px 30px;
+	padding: 0px;
+	list-style: none;
+}
+#bottom_menu li a {
+	text-decoration: none;
+	color: #CCC;
+}
+
+#bottom_menu li a:hover {
+	text-decoration: underline;
+	color: #CCC;
+}
+
+
+#copyright {
+	margin: 0px;
+	padding: 0px;
+	color: #999;
+}
+
+
+/* サイドバー　
+------------------------------------------------------ */
+#sideber {
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	height: auto;
+	width: 220px;
+}
+
+
+#side_tit_company {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+#side_company_body {
+	margin: 0px 0px 20px;
+	padding: 9px;
+	height: auto;
+	width: 200px;
+	border-right: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	border-left: 1px solid #CCC;
+}
+
+
+
+#bn_contact_body {
+	height: 230px;
+	width: 220px;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+#bn_contact {
+	margin: 0px;
+	padding: 0px;
+	height: 230px;
+	width: 220px;
+	position: relative;
+}
+#btn_contact {
+	margin: 0px;
+	padding: 0px;
+	height: 30px;
+	width: 200px;
+	z-index: 1;
+	left: 10px;
+	top: 150px;
+	position: absolute;
+}

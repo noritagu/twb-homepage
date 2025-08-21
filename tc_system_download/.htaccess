@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "Please enter username and password"
+AuthUserFile /var/www/vhosts/twb.jp/httpdocs/tc_system_download/.htpasswd
+AuthGroupFile /dev/null
+require valid-user

@@ -1,0 +1,194 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja"><!-- InstanceBegin template="/Templates/base.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<!-- InstanceBeginEditable name="head" -->
+<meta name="Keywords" content="Webアプリケーション,開発,情報,システム,ソフトウェア,PHP" />
+<meta name="Description" content="より身近にWebアプリケーション開発をサポートする株式会社TWB" />
+<script type="text/javascript" src="js/rollover.js"></script>
+<link href="css/import_page.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" type="text/css" href="_inquiry.css"/>
+<style type="text/css">
+#formWrap {
+	width:700px;
+	margin:0 auto;
+	color:#555;
+	line-height:120%;
+	font-size:90%;
+}
+table.formTable{
+	width:100%;
+	margin:0 auto;
+	border-collapse:collapse;
+}
+table.formTable td,table.formTable th{
+	border:1px solid #ccc;
+	padding:10px;
+}
+table.formTable th{
+	width:30%;
+	font-weight:normal;
+	background:#efefef;
+	text-align:left;
+}
+</style>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>お問い合わせ　｜　株式会社ＴＷＢ</title>
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<a name="top" id="top"></a>
+<!--　外枠ここから　-->
+<div id="wrapper">
+	
+	<!--　ヘッダー　-->
+	<div id="header">
+		<div id="lead_text">
+			<h1>株式会社ＴＷＢは<br />お客様のＷｅｂシステムをより身近にサポートする会社です</h1>
+		</div>
+		<div id="logo">
+			<a href="index.html"><img src="img/logo.gif" width="113" height="36" alt="株式会社TWB" /></a></div>
+		<div id="tel"><img src="img/tel.gif" width="209" height="36" alt="お気軽にご相談ください 03-5613-1284" /></div>
+		
+	</div>
+	
+	<!--　グローバルメニュー　-->
+	<!-- InstanceBeginEditable name="navi" -->
+	<div id="navi">
+		<ul>
+			<li><a href="index.html"><img src="img/navi_home_off.gif" alt="ホーム" width="150" height="40" /></a></li>
+			<li><a href="performance.html"><img src="img/navi_performance_off.gif" alt="実　績" width="150" height="40" /></a></li>
+			<li><img src="img/navi_rinen_on.gif" alt="経営理念" width="150" height="40" /></li>
+			<li><a href="company.html"><img src="img/navi_company_off.gif" alt="会社概要" width="150" height="40" /></a></li>
+			<li><a href="recruit.html"><img src="img/navi_recruit_off.gif" alt="採用情報" width="150" height="40" /></a></li>
+			<li><a href="inquiry.php"><img src="img/navi_contact_off.gif" alt="お問い合わせ" width="150" height="40" /></a></li>
+		</ul>
+	</div>
+	<!-- InstanceEndEditable -->
+	<!--　メインイメージ　-->
+	<!-- InstanceBeginEditable name="image" -->
+	<div id="page_image">
+		<h2><img src="img/tit_inquiry.jpg" alt="お問い合わせ" width="900" height="100" /></h2>
+	</div>
+	<!-- InstanceEndEditable --><!-- InstanceBeginEditable name="pass" -->
+	<div id="topic_pass"><a href="index.html">ホーム</a> &gt; お問い合わせ</div>
+	<!-- InstanceEndEditable -->
+	<!--　コンテンツ外枠ここから　-->
+	<div id="main">
+		
+		<!--　コンテンツここから　-->
+		<!-- InstanceBeginEditable name="contents" -->
+		<div id="inquiry">
+			
+			<p>以下フォームよりお問い合わせください。</p>
+
+			<form method="post" action="mail.php">
+				<table class="formTable">
+				  <tr>
+				    <th>お問い合せの種類</th>
+				    <td>
+						<input type="radio" name="お問い合せの種類" value="見積りを出して欲しい" />見積りを出して欲しい
+						<input type="radio" name="お問い合せの種類" value="最適なシステムを提案して欲しい" />最適なシステムを提案して欲しい
+						<input type="radio" name="お問い合せの種類" value="直接具体的に相談したい" />直接具体的に相談したい
+						<input type="radio" name="お問い合せの種類" value="事業提携の相談がしたい" />事業提携の相談がしたい
+						<input type="radio" name="お問い合せの種類" value="その他" />その他
+				    </td>
+				  </tr>
+				  <tr>
+				    <th>御社名</th>
+				    <td><input size="50" type="text" name="御社名" /> ※必須</td>
+				  </tr>
+				  <tr>
+				    <th>部署・役職名</th>
+				    <td><input size="30" type="text" name="部署・役職名" /> ※必須</td>
+				  </tr>
+				  <tr>
+				    <th>担当者名</th>
+				    <td><input size="30" type="text" name="担当者名" /> ※必須</td>
+				  </tr>
+				  <tr>
+				    <th>電話番号（半角）</th>
+				    <td><input size="30" type="text" name="電話番号" /></td>
+				  </tr>
+				  <tr>
+				    <th>郵便番号</th>
+				    <td><input size="10" type="text" name="郵便番号" /></td>
+				  </tr>
+				  <tr>
+				    <th>都道府県</th>
+				    <td><input size="10" type="text" name="都道府県" /></td>
+				  </tr>
+				  <tr>
+				    <th>住所</th>
+				    <td><input size="50" type="text" name="住所" /></td>
+				  </tr>
+				  <tr>
+				    <th>メールアドレス</th>
+				    <td><input size="50" type="text" name="Email" /> ※必須</td>
+				  </tr>
+				  <tr>
+				    <th>御社ウェブサイト</th>
+				    <td><input size="50" type="text" name="御社ウェブサイト" /></td>
+				  </tr>
+				  <tr>
+				    <th>お問い合わせ内容<br /></th>
+				    <td><textarea name="お問い合わせ内容" cols="50" rows="5"></textarea></td>
+				  </tr>
+				</table>
+				<p align="center">
+				  <input type="submit" value="　 確認 　" />　<input type="reset" value="リセット" />
+				</p>
+			</form>
+
+		</div>
+		<!-- InstanceEndEditable -->
+		<!--　コンテンツここまで　-->
+
+	</div>
+	<!--　コンテンツ外枠ここまで　-->
+</div>
+<!--　外枠ここまで　-->
+
+<!--　フッターここから　-->
+<div class="page_top"><a href="#top"><img src="img/btn_page_top.gif" width="120" height="30" alt="PageTop" /></a></div>
+
+
+<div id="footer">
+<div id="bottom_menu">
+	<ul>
+		<li><a href="index.html">ホーム</a></li>
+		<li>| <a href="performance.html">実績</a></li>
+		<li>| <a href="rinen.html">経営理念</a></li>
+		<li>| <a href="company.html">会社概要</a></li>
+		<li>| <a href="recruit.html">採用情報</a></li>
+		<li>|	<a href="inquiry.php">お問い合わせ</a></li>
+		<li>|	<a href="notation.html">特定商取引法表記</a></li>
+		<li>|	<a href="privacy.html">プライバシーポリシー</a></li>
+		<li>|	<a href="isms-A-02.pdf" target="_blank">情報セキュリティ基本方針</a></li>
+	</ul>	
+	</div>
+	<div id="copyright">Copyright(c) 2012 TWB All Rights Reserved.</div>
+	
+</div>
+
+<!--　フッターここまで　-->
+
+</body>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-42222167-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- InstanceEnd --></html>
