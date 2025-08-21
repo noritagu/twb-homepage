@@ -8,6 +8,63 @@
 
 <title>株式会社ＴＷＢはお客様のＷｅｂシステムをより身近にサポートする会社です</title>
 
+<!-- サイトヘッダーの共通部分 -->
+
+<!--CSS-->
+<link href="css/import.css" rel="stylesheet" type="text/css">
+<link href="css/max-640px.css" rel="stylesheet" type="text/css">
+<link href="css/import_page.css__" rel="stylesheet" type="text/css" media="all" />
+
+<!--JS-->
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/jquery.matchHeight.js"></script>
+<script>
+$(function(){
+$('.footer_nav01 , ul.column_cat_list li a').matchHeight();
+});
+</script>
+
+<script>
+$(function(){
+$(".accordion p").click(function(){
+    $(this).next("ul").slideToggle();
+    $(this).children("span").toggleClass("open");
+}); 
+  
+});
+</script>
+
+<script type="text/javascript" src="https://webfont.fontplus.jp/accessor/script/fontplus.js?ASgRoh6PkEY%3D&aa=1&ab=2" charset="utf-8"></script>
+</head>
+<body>
+
+<!--sp_nav-->
+<div class="sp_nav sp_only">
+	<div class="inner">
+		<div class="sp_nav_logo"><a href="index.html"><img src="images/common/sp_logo.png" alt="株式会社TWB"></a></div>
+		<div class="sp_nav_btn"><a href="javascript:void(0);" class="menu_trigger" title="Open Menu"><span></span></a></div>
+	</div>
+</div>
+
+<!--gnav-->
+<div class="gnav">
+	<div class="inner">
+		<h1 class="logo"><a href="index.html"><img src="images/common/logo.png" alt="株式会社TWB"></a></h1>
+		<nav class="global_nav">
+			<ul>
+				<li><a href="index.html">ホーム</a></li>
+				<li><a href="about.html">ＴＷＢについて</a></li>
+				<li><a href="service.html">サービス</a></li>
+				<li><a href="case.html">導入事例</a></li>
+				<li><a href="faq.html">よくある質問</a></li>
+				<li><a href="contact.html">お問い合わせ</a></li>
+			</ul>
+		</nav>
+	</div>
+</div>
+<!--/.gnav END-->
+
 <!-- ヘッダー-->
 <!--#include virtual="./common/header.html" -->
 
@@ -17,7 +74,7 @@
 	<!--main_top-->
 <div class="main_top_req">
     <h2 class="wf-min">株式会社TWBは、<br class="spbr"/>お客様のビジネスに密着し<br class="spbr"/>能動的に提案を行うシステム会社です</h2>
-    <div class="tatsu-sp"><img src="../images/page/reqruit/tatsu-main.png"/></div>
+    <div class="tatsu-sp"><img src="../images/page/reqruit/tatsu-main.png" alt="Tatsu Main"></div>
     <h3 class="ttl_02_req">私たちの理念</h3>
 
     <!-- 880px以上で表示（横並び & 4つ目で折り返し） -->
@@ -129,7 +186,7 @@
 </div>
 
 <div class="floating-banner">
-<a href="reqruit.html"><img src="images/page/reqruit/requit_flt_bn.jpg" alt=""></a>
+<a href="reqruit.html" title="Recruitment"><img src="images/page/reqruit/requit_flt_bn.jpg" alt="Recruitment Banner"></a>
 </div>
 
 <!--question_area-->
