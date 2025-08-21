@@ -9,8 +9,43 @@
 <title>ご依頼前に知って頂きたい事　｜　株式会社ＴＷＢ</title>
 
 <!-- ヘッダー-->
-<!--#include virtual="./common/header.html" -->
+<!-- Static content from header.html -->
+<link href="css/import.css" rel="stylesheet" type="text/css">
+<link href="css/max-640px.css" rel="stylesheet" type="text/css">
+<link href="css/import_page.css__" rel="stylesheet" type="text/css" media="all" />
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/jquery.matchHeight.js"></script>
+<script>
+$(function(){
+$('.footer_nav01 , ul.column_cat_list li a').matchHeight();
+});
+</script>
+<script>
+$(function(){
+$(".accordion p").click(function(){
+    $(this).next("ul").slideToggle();
+    $(this).children("span").toggleClass("open");
+}); 
+});
+</script>
+<script type="text/javascript" src="https://webfont.fontplus.jp/accessor/script/fontplus.js?ASgRoh6PkEY%3D&aa=1&ab=2" charset="utf-8"></script>
+<!-- ...existing code... -->
+<!-- Static content from footer.html -->
+<footer>
+<div class="inner footer_nav">
+    <ul class="footer_nav01">
+        <li class="footer_nav_list01"><a href="index.html">HOME</a></li>
+        <li class="footer_nav_list01"><a href="works.html" title="Works">Works</a></li>
+        <li class="footer_nav_list01"><a href="news.html" title="News">News</a></li>
+        <li class="footer_nav_list01"><a href="reqruit.html" title="Recruit">Recruit</a></li>
+        <li class="footer_nav_list01"><a href="/contact/" title="Contact">Contact</a></li>
+    </ul>
+<p class="copyright"> &copy 2006 TWB, Inc. </p>
+</footer>
+</head>
 
+<body>
 <!--page_ttl-->
 <div id="page_ttl" class="guide_bg">
 	<h2>ご依頼前に知って頂きたい事</h2>
@@ -86,5 +121,16 @@
 </div>
 <!--/.main_contents END-->
 <!-- フッター-->
-<!--#include virtual="./common/footer_area.html" -->
-<!--#include virtual="./common/footer.html" -->
+<footer>
+<div class="inner footer_nav">
+    <ul class="footer_nav01">
+        <li class="footer_nav_list01"><a href="index.html">HOME</a></li>
+        <li class="footer_nav_list01"><a href="works.html" title="Works">Works</a></li>
+        <li class="footer_nav_list01"><a href="news.html" title="News">News</a></li>
+        <li class="footer_nav_list01"><a href="reqruit.html" title="Recruit">Recruit</a></li>
+        <li class="footer_nav_list01"><a href="/contact/" title="Contact">Contact</a></li>
+    </ul>
+<p class="copyright"> &copy 2006 TWB, Inc. </p>
+</footer>
+</body>
+</html>

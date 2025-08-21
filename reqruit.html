@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="ja">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,8 +8,31 @@
 
 <title>人材募集　｜　株式会社ＴＷＢ</title>
 
+<!-- Static content from header.html -->
+<link href="css/import.css" rel="stylesheet" type="text/css">
+<link href="css/max-640px.css" rel="stylesheet" type="text/css">
+<link href="css/import_page.css__" rel="stylesheet" type="text/css" media="all" />
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/jquery.matchHeight.js"></script>
+<script>
+$(function(){
+$('.footer_nav01 , ul.column_cat_list li a').matchHeight();
+});
+</script>
+<script>
+$(function(){
+$(".accordion p").click(function(){
+    $(this).next("ul").slideToggle();
+    $(this).children("span").toggleClass("open");
+}); 
+});
+</script>
+<script type="text/javascript" src="https://webfont.fontplus.jp/accessor/script/fontplus.js?ASgRoh6PkEY%3D&aa=1&ab=2" charset="utf-8"></script>
+<!-- ...existing code... -->
+
 <!-- ヘッダー-->
-<!--#include virtual="./common/header.html" -->
+<!-- Static content from header.html -->
 
 <!--page_ttl-->
 <div id="page_ttl" class="reqruit_bg">
@@ -228,5 +251,18 @@
 <!--/.main_contents END-->
 
 <!-- フッター-->
-<!--#include virtual="./common/footer_area.html" -->
-<!--#include virtual="./common/footer.html" -->
+<!-- Static content from footer.html -->
+<footer>
+<div class="inner footer_nav">
+    <ul class="footer_nav01">
+        <li class="footer_nav_list01"><a href="index.html">HOME</a></li>
+        <li class="footer_nav_list01"><a href="works.html">制作実績</a></li>
+        <li class="footer_nav_list01"><a href="policy.html">制作に関するポリシー</a></li>
+        <li class="footer_nav_list01"><a href="development.html">開発体制</a></li>
+        <li class="footer_nav_list01"><a href="reason.html">選ばれる理由</a></li>
+        <li class="footer_nav_list01"><a href="faq.html">よくある質問</a></li>
+        <li class="footer_nav_list01"><a href="contact.html">お問い合わせ</a></li>
+    </ul>
+</div>
+<p class="copyright"> &copy 2006 TWB, Inc. </p>
+</footer>
