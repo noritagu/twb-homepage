@@ -1,0 +1,509 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Keywords" content="Webアプリケーション,開発,情報,システム,ソフトウェア,PHP" />
+<meta name="Description" content="より身近にWebアプリケーション開発をサポートする株式会社TWB" />
+
+<title>お客様のビジネスに深く並走し、能動的な提案と確かな技術でDX推進を共創するパートナー</title>
+
+<!-- サイトヘッダーの共通部分　-->
+
+<!--CSS-->
+<link href="css/import.css" rel="stylesheet" type="text/css">
+<link href="css/max-640px.css" rel="stylesheet" type="text/css">
+<link href="css/import_page.css__" rel="stylesheet" type="text/css" media="all" />
+
+<!--JS-->
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/jquery.matchHeight.js"></script>
+<script>
+$(function(){
+$('.footer_nav01 , ul.column_cat_list li a').matchHeight();
+});
+</script>
+
+<script>
+$(function(){
+$(".accordion p").click(function(){
+	$(this).next("ul").slideToggle();
+	$(this).children("span").toggleClass("open");
+});  
+});
+</script>
+
+<script type="text/javascript" src="//webfont.fontplus.jp/accessor/script/fontplus.js?ASgRoh6PkEY%3D&aa=1&ab=2" charset="utf-8"></script>
+</head>
+<body>
+
+<!--sp_nav-->
+<div class="sp_nav sp_only">  
+  <h1 class="sp_logo"><a href="/index.html"><img src="images/common/sp_twb_logo.png" alt="株式会社TWB"></a></h1>
+  <div class="menu1" id="js-popout"></div>
+  <div class="panel" id="js-popout-panel">
+	<div class="panel-inner">
+	  <div class="l-nav">
+	<ul class="nav-sp accordion">      
+		<li><a href="index.html"> ホーム</a></li>
+
+		<li><a href="reqruit.html">人材募集</a></li>
+
+	<li><p><span> TWBについて</span></p>
+		<ul>
+				<li><a href="policy.html"> 制作に関するポリシー</a></li>
+				<li><a href="development.html"> 開発体制</a></li>
+				<li><a href="reason.html"> 選ばれる理由</a></li>
+				<li><a href="company.html"> 会社案内</a></li>
+		</ul>
+	</li>
+    
+	<li><p><span>サービス</span></p>
+		<ul>
+				<li><a href="service.html"> サービスの特徴</a></li>
+				<!--li><a href="price.html"> 価格について</a></li-->
+				<li><a href="#"> 価格について</a></li>
+				<li><a href="cases.html"> 業務効率化の事例</a></li>
+		</ul>
+	</li>
+
+	<li><p><span>便利ガイド</span></p>
+		<ul>
+				<li><a href="guide.html"> 知っていただきたい事</a></li>
+				<li><a href="flow.html"> 開発の流れ</a></li>
+				<li><a href="faq.html"> よくあるご質問</a></li>
+				<!-- li><a href="it-hojo.html"> IT導入補助金について</a></li -->
+		</ul>
+	</li>
+
+	<li><p><span>システム開発</span></p>
+		<ul>
+				<li><a href="it-consulting.html"> ITコンサルティング</a></li>
+				<li><a href="project-management.html"> プロジェクトマネジメント</a></li>
+				<li><a href="system.html"> システム開発</a></li>
+				<li><a href="maintenance.html"> 運用・保守</a></li>
+		</ul>
+	</li>
+
+	<li><a href="news.html">お知らせ</a></li>
+	<!--li><a href="column.html">コラム</a></li-->
+	<li><a href="#">コラム</a></li>
+    
+		<li><a href="works.html">制作実績</a></li>
+		<li><a href="/contact/">お問い合わせ</a></li>
+
+		</ul>
+
+
+	  </div>
+	  <div class="close" id="js-popout-close"></div>
+	</div>
+  </div>
+</div>
+<!--/.sp_nav END-->
+
+
+<!--header-->
+<header>
+	<p class="header_top">TWBはお客様の「使いやすい」を実現するシステム会社です</p>
+	<h1 class="logo"><a href="/index.html"><img src="images/common/pc_twb_logo.png" alt="株式会社TWB"></a></h1>
+	<nav>
+		<ul>
+
+		<li><a href="reqruit.html">人材募集</a></li>
+
+		<li><a href="company.html">TWBについて</a>
+		   <ul class="child_nav">
+			<li><a href="policy.html">制作に関するポリシー</a></li>
+			<li><a href="development.html">開発体制</a></li>
+			<li><a href="reason.html">選ばれる理由</a></li>
+			<li><a href="company.html">会社案内</a></li>
+			<li><a href="works.html">制作実績</a></li>
+		   </ul>
+		</li>    
+
+		<li><a href="service.html">サービス</a>
+		   <ul class="child_nav">
+			<li><a href="service.html">サービスの特徴</a></li>
+			<!--li><a href="price.html">価格について</a></li-->
+			<li><a href="#">価格について</a></li-->
+			<li><a href="cases.html">業務効率化の事例</a></li>
+		   </ul>
+		</li>    
+
+		<li><a href="guide.html">便利ガイド</a>
+		   <ul class="child_nav">
+			<li><a href="guide.html">知っていただきたい事</a></li>
+			<li><a href="flow.html">開発の流れ</a></li>
+			<li><a href="faq.html">よくあるご質問</a></li>
+			<!-- li><a href="it-hojo.html">IT導入補助金について</a></li -->
+		   </ul>
+		</li>    
+
+		<li><a href="system.html">システム開発</a>
+		   <ul class="child_nav">
+			<li><a href="it-consulting.html">ITコンサルティング</a></li>
+			<li><a href="project-management.html">プロジェクトマネジメント</a></li>
+			<li><a href="system.html">システム開発</a></li>
+			<li><a href="maintenance.html">運用・保守</a></li>
+		   </ul>
+		</li>  
+<!--
+			<li><a href="works.html">制作実績</a></li>
+-->
+			<li><a href="/contact/">お問い合わせ</a></li>
+		</ul>
+	</nav>
+	<p class="header_tel"><img src="images/common/header_tel.jpg?id=1234" alt=""></p>
+</header>
+<!--/.header EDN-->
+
+<!--main_img-->
+<div class="main_img_req">
+
+	<!--main_top-->
+<div class="main_top_req">
+    <h2 class="wf-min">お客様のビジネスに深く並走し、能動的な提案と確かな技術でDX推進を共創するパートナー</h2>
+    <div class="tatsu-sp"><img src="../images/page/reqruit/tatsu-main.png"/></div>
+    <h3 class="ttl_02_req">私たちの理念</h3>
+
+    <!-- 880px以上で表示（横並び & 4つ目で折り返し） -->
+    <div class="rinen rinen-desktop">
+        <div class="row">
+            <dl>
+                <dt>1. 柔軟な問題解決</dt>
+                <dd>私たちは、変化するビジネス環境に対応した的確で柔軟な問題解決を目指します。<br/>
+お客様の業務プロセスを深く理解し、最先端の技術を活用して効率化と最適化を実現します。<br/>
+複雑な業務要件にも迅速に対応し、使いやすく効果的なソリューションを提供します。</dd>
+
+                <dt>2. 共創の姿勢</dt>
+                <dd>私たちは、お客様やパートナー企業と共に価値を創造することを大切にしています。<br/>
+システム開発においては、要件定義から運用・保守まで密接に連携し、信頼関係を築きながら最適なシステムを共に作り上げます。<br/>
+お客様の声に耳を傾け、多様な意見を取り入れることで、より良いシステムを実現します。</dd>
+
+                <dt>3. 社会的責任</dt>
+                <dd>私たちは、システム開発を通じて社会に貢献することを使命としています。<br/>
+業務効率を向上させるソリューションの提供により、企業の生産性を高め、
+より良い社会の実現に寄与します。<br/>
+また、セキュリティやプライバシー保護に配慮し、公正かつ信頼できるサービスを提供します。</dd>
+            </dl>
+        </div>
+
+        <div class="row">
+            <dl>
+                <dt>4. 多様性の尊重</dt>
+                <dd>私たちは、多様な価値観やスキルを持つチームメンバーが集まることで、革新的なシステムを開発できると信じています。<br/>
+異なる背景や経験を尊重し、多様な視点を取り入れる。<br/>この多様性が、新たなイノベーションの源泉であると考えています。</dd>
+
+                <dt>5. 活躍の場の創出</dt>
+                <dd>誰もが活躍できる社会へ。<br/>私たちは様々な理由で就労に困難を抱える方々に門戸を開き、その才能を最大限に発揮できる場を創ります。<br/>ビジネスの成功と社会貢献は、決して相反しません。</dd>
+            </dl>
+        </div>
+    </div>
+
+    <!-- 880px未満で表示（縦並び） -->
+    <div class="rinen rinen-mobile">
+        <dl>
+            <dt>1. 柔軟な問題解決</dt>
+                <dd>私たちは、変化するビジネス環境に対応した的確で柔軟な問題解決を目指します。<br/>
+お客様の業務プロセスを深く理解し、最先端の技術を活用して効率化と最適化を実現します。<br/>
+複雑な業務要件にも迅速に対応し、使いやすく効果的なソリューションを提供します。</dd>
+
+            <dt>2. 共創の姿勢</dt>
+                <dd>私たちは、お客様やパートナー企業と共に価値を創造することを大切にしています。<br/>
+システム開発においては、要件定義から運用・保守まで密接に連携し、信頼関係を築きながら最適なシステムを共に作り上げます。<br/>
+お客様の声に耳を傾け、多様な意見を取り入れることで、より良いシステムを実現します。</dd>
+
+            <dt>3. 社会的責任</dt>
+                <dd>私たちは、システム開発を通じて社会に貢献することを使命としています。<br/>
+業務効率を向上させるソリューションの提供により、企業の生産性を高め、より良い社会の実現に寄与します。<br/>
+また、セキュリティやプライバシー保護に配慮し、公正かつ信頼できるサービスを提供します。</dd>
+
+            <dt>4. 多様性の尊重</dt>
+                <dd>私たちは、多様な価値観やスキルを持つチームメンバーが集まることで、革新的なシステムを開発できると信じています。<br/>
+異なる背景や経験を尊重し、多様な視点を取り入れる。<br/>この多様性が、新たなイノベーションの源泉であると考えています。</dd>
+
+            <dt>5. 活躍の場の創出</dt>
+                <dd>誰もが活躍できる社会へ。<br/>私たちは様々な理由で就労に困難を抱える方々に門戸を開き、その才能を最大限に発揮できる場を創ります。<br/>ビジネスの成功と社会貢献は、決して相反しません。</dd>
+        </dl>
+    </div>
+</div>
+
+    <!--/.main_top END-->
+   
+</div>
+<!--/.main_img END-->
+<!--support_area-->
+<div class="support_area_req">
+	<div class="inner2">
+	<h3 class="support_top_ttl2">－　私たちの誓い　－</h3>
+	
+	<ul class="support_area_list">
+		<li><div class="support_area_contents">
+			<p class="support_info_req">お客様へ</p>
+			<p class="support_txt_req">本当に必要なものを見極め、最適な解決策を。<br/>本質的な価値を提供します。</p>
+		</div></li>
+		
+		<li><div class="support_area_contents">
+			<p class="support_info_req">社会へ</p>
+			<p class="support_txt_req">技術の力で社会課題に挑み、より良い未来を共に創ります。</p>
+		</div></li>
+		
+		<li><div class="support_area_contents">
+			<p class="support_info_req">仲間へ</p>
+			<p class="support_txt_req">公正な機会と成長の場を。私たちは技術と創造性、そして何より「人」を大切にする企業として、
+			社会に新たな価値を生み出し続けます。<br/>課題解決のその先にある、豊かな未来を目指して。</p>
+		</div></li>
+	</ul>	
+	</div>
+</div>
+<!--/.support_area END-->
+
+<!--
+<div class="floating-banner">
+<a href="reqruit.html"><img src="images/page/reqruit/requit_flt_bn.jpg" alt=""></a>
+</div>
+-->
+
+<!--question_area-->
+<!-- 
+<div class="question_area">
+	
+	<div class="question_inner">
+	<div class="question_area_left">
+		<ul>
+			<li><img src="images/page/top/question01.png" alt="パソコン詳しくないけど操作できるの？"></li>
+			<li><img src="images/page/top/question02.png" alt="開発費はどのくらい？"></li>
+			<li><img src="images/page/top/question03.png" alt="どこにお願いしても断られる…"></li>
+			<li><img src="images/page/top/question04.png" alt="商品の在庫管理を簡潔にしたいなぁ"></li>
+		</ul>
+	</div>
+	<div class="question_area_right">
+		<ul>
+			<li><img src="images/page/top/question05.png" alt="導入後のサポートは？"></li>
+			<li><img src="images/page/top/question06.png" alt="今のサイトが使いづらい…"></li>
+			<li><img src="images/page/top/question07.png" alt="そもそも依頼の仕方がわからない…"></li>
+			<li><img src="images/page/top/question08.png" alt="事務処理をもっと簡単に"></li>
+		</ul>
+	</div>
+	</div>
+</div>
+-->
+<!--/.question_area END-->
+
+<!--support_area-->
+<div class="support_area">
+	<div class="inner2">
+	<h2 class="support_top_ttl">TWBのITトータルサポート：貴社のIT戦略を推進するパートナー</h2>
+	<h3 class="support_top_ttl2">IT部門の業務を包括的に支援するサービス</h3>
+	<p class="support_top_txt">専任のIT担当者が不在、またはリソース不足でお悩みの法人様へ。TWBのITトータルサポートは、貴社の情報システム部門の業務をまるごと委託できるサービスです。ITコンサルティングから要件定義支援、システム運用・保守・機能改善まで、システムライフサイクル全体を一貫してお客様のビジネスに深く並走し、本業への集中と安定したIT基盤の実現を強力にサポートします。</p>
+	
+	<ul class="support_area_list">
+		<li><div class="support_area_contents">
+			<p class="support_info">システム導入、何から始めるべきかお悩みではありませんか？</p>
+			<p class="support_img"><img src="images/page/top/support_icon01.png" alt=""></p>
+			<p class="support_txt">貴社のビジネスモデルやご要望を深くヒアリングし、本質的な課題を見極めることから始めます。TWBのITコンサルティング・要件定義支援を通じて、お客様の事業に最適なシステム化のロードマップを共に描き、具体的な解決策をご提案いたします</p>
+			<p class="support_more_bt"><a href="service.html">ITコンサルティング・要件定義支援サービス詳細へ<span></span></a></p>
+		</div></li>
+		
+		<li><div class="support_area_contents">
+			<p class="support_info">システム開発の費用、ご予算へのご不安はありませんか？</p>
+			<p class="support_img"><img src="images/page/top/support_icon02.png" alt=""></p>
+			<p class="support_txt">貴社のビジネスニーズとご予算を深く理解し、TWBは費用対効果を最大化する最適なプランをご提案します。**既存のツール活用、オープンソースやクラウド技術の導入、必要最小限からのスモールスタート**など、無駄を省きながら最大限の価値を創出する**柔軟なアプローチ**で、お客様の課題解決と事業成長を支援いたします。概算での価格については、下記の料金案内ページでご確認いただけます。</p>
+			<!--p class="support_more_bt"><a href="price.html">価格について<span></span></a></p-->
+			<p class="support_more_bt"><a href="#">料金案内・費用に関するご相談へ<span></span></a></p>
+		</div></li>
+		
+		<li><div class="support_area_contents">
+			<p class="support_info">複雑な業務プロセスを最適化し、経営のスピードを加速しませんか？</p>
+			<p class="support_img"><img src="images/page/top/support_icon03.png" alt=""></p>
+			<p class="support_txt">部門間の連携不足、データの一元管理の困難、属人化した事務処理は、組織全体の生産性を低下させ、迅速な意思決定を妨げる課題です。TWBは、貴社のビジネスコンセプトや業務運用を深くヒアリングし、最適な業務改善案を能動的にご提案いたします。生産管理、在庫管理、顧客管理、文書管理、経理計算など、多岐にわたる業務の効率化・システム化を通じて、大幅な工数削減と生産性向上を実現し、貴社のDX推進を強力にサポート します。具体的な業務効率化の成功事例も豊富ですので、ぜひご覧ください</p>
+			<p class="support_more_bt"><a href="cases.html">業務効率化・改善の成功事例を見る<span></span></a></p>
+		</div></li>
+	</ul>	
+	</div>
+</div>
+<!--/.support_area END-->
+
+<!--contact_br-->
+<!--
+	<div class="inner2">
+   	  	<div class="contact_br">
+          <div class="contact_info">
+           	<a href="inquiry.php">
+          	<h3 class="contact_info_ttl">無料ご相談</h3>
+            <p class="contact_info_txt">業務へのID導入、見積もり依頼、炎上案件のヘルプ、<br>エンジニアの紹介依頼など、システム開発に関する<br>ご相談を無料で承ります。</p>
+            <h4 class="contact_info_ttl_1">お気軽にお問い合わせ下さい。</h4>
+            </a>
+          </div>
+          <p class="contact_img"><img src="images/common/contact_img.jpg" alt=""></p>
+        </div>
+	</div>
+-->
+	<!--/.contact_br END-->
+
+
+	<!--system_area_top-->
+	<div class="system_area_top">
+		<div class="inner2">
+		<h2 class="top_ttl">TWBのDX推進・システム開発：お客様のビジネスに深く並走し、未来を共創</h2>
+		<p class="top_txt">お客様のビジネスコンセプトや業務運用を深くヒアリングし、本質的な課題を見極めることから始めます。特定の業界に特化した深い業務理解と、PHP (Laravel)、Vue.js、React、AWSといったモダンな技術力を背景に、単なるシステム開発に留まらず、企画・コンサルティングから要件定義、開発、運用・保守、そして長期的な機能改善まで、システムライフサイクル全体を一貫して支援します。経験豊富なPM/PMOがプロジェクトを強力に推進し、貴社の事業成長に直結する最適なDX戦略と実践的な解決策を能動的にご提案することで、お客様自身が未来へ「自走できる」IT基盤を共に築き上げます。</p>
+			<ul class="system_list">
+				<li><a href="it-consulting.html"><img src="images/page/top/system_01.png" alt="ITコンサルティング"></a></li>
+				<li><a href="project-management.html"><img src="images/page/top/system_02.png" alt="プロジェクトマネジメント"></a></li>
+				<li><a href="system.html"><img src="images/page/top/system_03.png" alt="システム開発"></a></li>
+				<li><a href="maintenance.html"><img src="images/page/top/system_04.png" alt="運用・保守"></a></li>
+			</ul>
+		</div>
+	</div>
+	<!--/.system_area END-->
+
+
+	<!--reason_area-->
+    <div class="reason_area r_01 reason_area_top"> 
+    	<div class="inner2">
+        <div class="right_inner_3"> 
+        	<p class="reason_area_txt">WELLCOME TO FLAMES</p>
+            <h2 class="reason_area_ttl">複雑な挑戦を、確かな成功へ。TWBの高度プロジェクト支援</h2>
+        	<p class="reason_area_txt2">多くのプロジェクトが、計画の不明確さ、仕様の複雑化、あるいは技術的・マネジメント上の課題により難航することがあります。TWBは、このような複雑かつ挑戦的な状況にあるプロジェクトを、根本から立て直し、成功へと導く専門知識と実行力を持っています。
+具体的には、以下のような課題を抱えるプロジェクトにおいて、貴社のIT戦略を強力にサポートします:
+• 要件の肥大化や仕様の複雑化により、開発が停滞し、担当者が不在となってしまった状況。
+• システムの全体像や仕様内容の把握が困難なため、効果的な運用や継続的な改善が難しい状況。
+• 技術的またはマネジメント上の問題により、プロジェクトが当初の目標を見失い、行き詰まってしまった状況。
+TWBの豊富なプロジェクトマネジメント経験と上流工程への対応力を持つPM、PMO、上級SEが、お客様のビジネスに深く並走し、複雑に絡み合った課題を紐解き、プロジェクトを正常な軌道に乗せるための具体的な解決策を能動的にご提案いたします。解決が困難とされたプロジェクトも、ぜひTWBにご相談ください。</p>
+        </div>
+        </div>
+	</div>
+	<!--/.reason_area END-->
+
+
+	<!--guide_area_top-->
+    <div class="guide_area_top"> 
+    	<div class="inner2">
+			<h2 class="top_ttl">TWBのシステム開発・DX推進ガイド：お客様と共に歩む成功プロセス</h2>
+			<p class="top_txt">システム開発やDX推進をご検討のお客様へ。TWBは、お客様が抱える疑問や不安を解消し、最適なシステム導入を実現するための明確なプロセスをご案内します。ご依頼前の重要なポイント、開発の具体的な流れ、そしてよくあるご質問を通じて、貴社のビジネスに深く並走し、成功へと導くパートナーシップの第一歩をサポートいたします。</p>
+			<ul class="guide_bt">
+			<li><a href="guide.html">ご相談から契約まで<span></span></a></li>
+			<li><a href="flow.html">システム開発の全工程<span></span></a></li>
+			<li><a href="faq.html">よくあるご質問<span></span></a></li>
+			<!-- li><a href="it-hojo.html">IT導入補助金について<span></span></a></li -->
+			</ul>
+		</div>
+	</div>
+	<!--/.guide_area_top END-->
+
+	<!--what_area_top-->
+	<div class="what_area_top">
+		<div class="inner2">
+			<h2 class="top_ttl">TWBについて<span>お客様と共に未来を「自走」するDXパートナー</span></h2>
+			<p class="what_area_img"><img src="images/page/top/what_img01.png" alt=""></p>
+			<div class="what_area_right">
+				<p class="what_area_txt">システム開発やDX推進において、お客様のビジネスに深く並走し、真に「使いやすい」システムを共創します。ご要望の本質を見極める能動的な提案から、導入後の機能拡張や長期的な運用・保守、そして貴社の「自走」まで、確かなパートナーシップでお客様の未来をサポートいたします。</p>
+				<ul class="what_bt">
+					<li><a href="policy.html">制作に関するポリシー<span></span></a></li>
+					<li><a href="development.html">開発体制<span></span></a></li>
+					<li><a href="company.html">会社案内<span></span></a></li>
+					<li><a href="reason.html">選ばれる理由<span></span></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!--/.what_area_top END-->
+
+
+	<!--news_area_top-->
+	<div class="news_area_top">
+		<div class="inner2">
+			<h2 class="top_ttl">お知らせ<span>What's New</span></h2>
+			<dl>
+				<dt>2025.04.02</dt>
+				<dd><a href="reqruit.html">人材募集ページを追加しました。</a></dd>
+			</dl>
+			<dl>
+				<dt>2018.05.01</dt>
+				<dd><a href="news-single001.html">ホームページリニューアル致しました。</a></dd>
+			</dl>
+<!--			
+			<dl>
+				<dt>2018.01.30</dt>
+				<dd><a href="news-single.html">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</a></dd>
+			</dl>
+			<dl>
+				<dt>2018.01.30</dt>
+				<dd><a href="news-single.html">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</a></dd>
+			</dl>
+			<dl>
+				<dt>2018.01.30</dt>
+				<dd><a href="news-single.html">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</a></dd>
+			</dl>
+			<dl>
+				<dt>2018.01.30</dt>
+				<dd><a href="news-single.html">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</a></dd>
+			</dl>
+-->
+		</div>
+	</div>
+	<!--/.news_area_top END-->
+
+	<!--column_area_top-->
+<!--
+	<div class="column_area_top">
+		<div class="inner2">
+			<h2 class="top_ttl">お役立ちコラム<span>Column</span></h2>
+			<ul class="column_area_list">
+				<li>
+					<div>
+						<p class="column_area_list_img"><a href="column-single.html"><img src="images/page/top/column_img.png" alt=""></a></p>
+						<div class="column_area_inner">
+							<p class="column_area_day">2018.01.30</p>
+							<h4 class="column_area_ttl"><a href="column-single.html">タイトルが入ります。タイトルが入
+							ります。タイトルが入ります。タイトルが入ります。</a></h4>
+						</div>
+					</div>
+				</li>
+
+				<li>
+					<div>
+						<p class="column_area_list_img"><a href="column-single.html"><img src="images/page/top/column_img.png" alt=""></a></p>
+						<div class="column_area_inner">
+							<p class="column_area_day">2018.01.30</p>
+							<h4 class="column_area_ttl"><a href="column-single.html">タイトルが入ります。タイトルが入
+							ります。タイトルが入ります。タイトルが入ります。</a></h4>
+						</div>
+					</div>
+				</li>
+
+				<li>
+					<div>
+						<p class="column_area_list_img"><a href="column-single.html"><img src="images/page/top/column_img.png" alt=""></a></p>
+						<div class="column_area_inner">
+							<p class="column_area_day">2018.01.30</p>
+							<h4 class="column_area_ttl"><a href="column-single.html">タイトルが入ります。タイトルが入
+							ります。タイトルが入ります。タイトルが入ります。</a></h4>
+						</div>
+					</div>
+				</li>
+
+				<li>
+					<div>
+						<p class="column_area_list_img"><a href="column-single.html"><img src="images/page/top/column_img.png" alt=""></a></p>
+						<div class="column_area_inner">
+							<p class="column_area_day">2018.01.30</p>
+							<h4 class="column_area_ttl"><a href="column-single.html">タイトルが入ります。タイトルが入
+							ります。タイトルが入ります。タイトルが入ります。</a></h4>
+						</div>
+					</div>
+				</li>
+
+			</ul>
+
+		</div>
+	</div>
+-->	
+	<!--/.column_area_top END-->
+
+	<!-- フッター-->
+<!--#include virtual="./common/footer_area_top.html" -->
+<!--#include virtual="./common/footer.html" -->
+
